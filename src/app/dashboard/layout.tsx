@@ -28,7 +28,6 @@ export default function DashboardLayout({
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const { user, isLoaded } = useUser();
   const pathname = usePathname();
-  console.log(pathname);
 
   const navigation = [
     {
@@ -48,12 +47,6 @@ export default function DashboardLayout({
       href: "/dashboard/projects",
       icon: FolderIcon,
       current: pathname.includes("projects"),
-    },
-    {
-      name: "Documents",
-      href: "/dashboard/documents",
-      icon: DocumentDuplicateIcon,
-      current: pathname.includes("documents"),
     },
   ];
   return (

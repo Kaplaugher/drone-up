@@ -13,7 +13,6 @@ export default function FolderForm() {
   async function createFolder(formData: any) {
     "use server";
     if (!userId) return;
-    console.log(formData.get("name"));
     const parsedForm = schema.parse({
       name: formData.get("name"),
       userId,
@@ -32,7 +31,7 @@ export default function FolderForm() {
             name="name"
             id="name"
             className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#DD5829]  sm:text-sm sm:leading-6"
-            placeholder="Dingle"
+            placeholder="Walmart 1234"
           />
         </div>
         <button

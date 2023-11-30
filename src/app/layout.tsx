@@ -19,7 +19,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className="min-h-screen ">
-          <div className="">{children}</div>
+          <div className="h-full">{children}</div>
         </body>
       </html>
     </ClerkProvider>
