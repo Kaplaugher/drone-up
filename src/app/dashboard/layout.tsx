@@ -181,8 +181,8 @@ export default function DashboardLayout({
           <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-[#DD5829] px-6 pb-4">
             <div className="flex h-16 shrink-0 items-center">
               <img
-                className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=white"
+                className="h-26 w-26"
+                src="https://pbs.twimg.com/profile_images/1487876492642197504/eX0g5kIC_400x400.jpg"
                 alt="Your Company"
               />
             </div>

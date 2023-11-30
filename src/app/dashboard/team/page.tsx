@@ -1,7 +1,12 @@
+import Team from "@/components/Team";
 import React from "react";
 
 function TeamPage() {
-  return <div>TeamPage</div>;
+  return (
+    <div>
+      <Team />
+    </div>
+  );
 }
 
 export default TeamPage;
