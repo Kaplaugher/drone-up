@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Kyle-s-workspace-je1nsh.us-east-1.xata.sh/db/drone-up",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
