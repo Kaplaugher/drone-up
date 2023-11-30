@@ -21,7 +21,7 @@ function classNames(...classes) {
 }
 
 export default function DashboardLayout({
-  children, // will be a page or nested layout
+  children,
 }: {
   children: React.ReactNode;
 }) {
@@ -284,10 +284,7 @@ export default function DashboardLayout({
                 />
 
                 {/* Profile dropdown */}
-                {/* Profile dropdown */}
-                {isLoaded && user && (
-                  <UserButton afterSignOutUrl="/dashboard" />
-                )}
+                {isLoaded && user && <UserButton afterSignOutUrl="/sign-in" />}
               </div>
             </div>
           </div>
