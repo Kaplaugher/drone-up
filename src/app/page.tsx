@@ -1,11 +1,10 @@
 import { auth } from "@clerk/nextjs";
-import Image from "next/image";
 import { redirect } from "next/navigation";
 
 export default function Home() {
   const { userId } = auth();
   console.log(userId);
-  if (!userId) {
+  if (userId) {
     redirect("/dashboard");
   }
   return (
